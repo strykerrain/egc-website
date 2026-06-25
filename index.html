@@ -93,12 +93,8 @@
             <div style="animation: fadeUp 0.7s ease 1.1s both; display: flex; gap: 14px; flex-wrap: wrap; justify-content: center;">
               <!-- HIDDEN-CTA: re-enable after Google Business + Calendly setup -->
               <button onClick="{{ goContact }}" style="display: none; background: #C8A84C; color: #080A10; border: none; padding: 16px 44px; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; transition: opacity 0.2s, transform 0.2s;" style-hover="opacity: 0.85 !important; transform: translateY(-2px) !important;">Book a Discovery Call</button>
-              <button onClick="{{ goServices }}" style="background: transparent; color: rgba(240,237,230,0.8); border: 1px solid rgba(240,237,230,0.22); padding: 16px 44px; font-family: 'Barlow Condensed', sans-serif; font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; transition: all 0.2s;" style-hover="border-color: #C8A84C !important; color: #C8A84C !important; transform: translateY(-2px) !important;">Explore Services</button>
+              <button onClick="{{ goServices }}" style="background: transparent; color: rgba(240,237,230,0.8); border: 1px solid rgba(240,237,230,0.22); padding: 16px 44px; font-family: 'Barlow Condensed', sans-serif; font-size: 13px; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; transition: all 0.2s;" style-hover="border-color: #C8A84C !important; color: #C8A84C !important; transform: translateY(-2px) !important;">See How We Coach →</button>
             </div>
-          </div>
-          <div style="position: absolute; bottom: 36px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 7px; animation: fadeUp 0.7s ease 1.5s both; opacity: 0.45;">
-            <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 9px; letter-spacing: 0.45em; color: #C8A84C; text-transform: uppercase;">Scroll</span>
-            <div style="width: 1px; height: 38px; background: linear-gradient(to bottom, #C8A84C, transparent);"></div>
           </div>
         </section>
 
@@ -106,25 +102,34 @@
         <section style="padding: clamp(64px,8vw,108px) clamp(20px,4vw,40px); background: #0A0C12;">
           <div style="max-width: 1280px; margin: 0 auto;">
             <div data-reveal style="opacity: 0; transform: translateY(24px); text-align: center; margin-bottom: 60px;">
-              <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.42em; color: #C8A84C; text-transform: uppercase; margin-bottom: 14px;">What We Coach</p>
-              <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 6vw, 72px); color: #F0EDE6; letter-spacing: 0.02em; line-height: 0.95;">Built Around Your Discipline</h2>
+              <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.42em; color: #C8A84C; text-transform: uppercase; margin-bottom: 14px;">What We Do</p>
+              <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(40px, 6vw, 72px); color: #F0EDE6; letter-spacing: 0.02em; line-height: 0.95;">Triathlon &amp; Endurance Coaching</h2>
             </div>
-            <div data-grid-2x2 style="display: grid; grid-template-columns: 1fr; gap: 1px; background: rgba(200,168,76,0.12); max-width: 680px; margin: 0 auto;">
+            <div data-grid-2x2 style="display: grid; grid-template-columns: 1fr 1.6fr; gap: 1px; background: rgba(200,168,76,0.12); max-width: 1120px; margin: 0 auto;">
 
-              <!-- Card 01 -->
-              <div data-reveal data-delay="0" style="opacity: 0; transform: translateY(24px); background: #0E1218; padding: clamp(32px,4vw,52px) clamp(24px,3.5vw,44px); cursor: pointer; transition: background 0.25s;" style-hover="background: #12161F !important;" onClick="{{ goServices }}">
-                <div style="margin-bottom: 18px;">
-                  <div style="font-family: 'Bebas Neue', sans-serif; font-size: 72px; color: #C8A84C; line-height: 1; letter-spacing: 0.02em; opacity: 0.72;">01</div>
-                </div>
-                <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 28px; letter-spacing: 0.04em; color: #F0EDE6; margin-bottom: 7px; line-height: 1.1;">Triathlon &amp; Endurance</h3>
-                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.26em; color: #C8A84C; text-transform: uppercase; margin-bottom: 18px;">Sprint → Full Ironman</p>
-                <p style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.5); line-height: 1.78;">Zone-based swim, bike, and run programming built around your race calendar and real life — with ongoing coaching through TrainingPeaks.</p>
-                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin-top: 22px;">
+              <!-- Overview -->
+              <div data-reveal style="opacity: 0; transform: translateY(24px); background: #0E1218; padding: clamp(32px,4vw,52px) clamp(24px,3.5vw,44px);">
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.26em; color: #C8A84C; text-transform: uppercase; margin-bottom: 18px;">Swim · Bike · Run · Strength</p>
+                <p style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.78; margin-bottom: 24px;">Full-discipline triathlon coaching built around your goal race, your current fitness, and the training time you actually have. Every plan is periodized across base, build, peak, and taper — with structured swim, bike, and run programming, integrated strength work, and injury prevention built in from the start.</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 6px;">
                   <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.18em; color: rgba(200,168,76,0.65); border: 1px solid rgba(200,168,76,0.2); padding: 4px 10px; text-transform: uppercase;">SWIM</span>
                   <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.18em; color: rgba(200,168,76,0.65); border: 1px solid rgba(200,168,76,0.2); padding: 4px 10px; text-transform: uppercase;">BIKE</span>
                   <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.18em; color: rgba(200,168,76,0.65); border: 1px solid rgba(200,168,76,0.2); padding: 4px 10px; text-transform: uppercase;">RUN</span>
-                  <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.18em; color: rgba(200,168,76,0.65); border: 1px solid rgba(200,168,76,0.2); padding: 4px 10px; text-transform: uppercase;">BRICK</span>
-                  <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.18em; color: rgba(200,168,76,0.65); border: 1px solid rgba(200,168,76,0.2); padding: 4px 10px; text-transform: uppercase;">OPEN WATER</span>
+                  <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.18em; color: rgba(200,168,76,0.65); border: 1px solid rgba(200,168,76,0.2); padding: 4px 10px; text-transform: uppercase;">STRENGTH</span>
+                </div>
+              </div>
+
+              <!-- What's Included -->
+              <div data-reveal data-delay="120" style="opacity: 0; transform: translateY(24px); background: #0E1218; padding: clamp(32px,4vw,52px) clamp(24px,3.5vw,44px);">
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.32em; color: rgba(240,237,230,0.35); text-transform: uppercase; margin-bottom: 20px;">What's Included</p>
+                <div style="border-top: 1px solid rgba(200,168,76,0.1);">
+                  <div style="padding: 18px 0; border-bottom: 1px solid rgba(200,168,76,0.08); display: flex; gap: 16px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 10px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.6;">Race-specific periodized plan across swim, bike, and run</span></div>
+                  <div style="padding: 18px 0; border-bottom: 1px solid rgba(200,168,76,0.08); display: flex; gap: 16px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 10px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.6;">Zone-based targets using heart rate, pace, and RPE</span></div>
+                  <div style="padding: 18px 0; border-bottom: 1px solid rgba(200,168,76,0.08); display: flex; gap: 16px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 10px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.6;">TrainingPeaks delivery with coach comments on every session</span></div>
+                  <div style="padding: 18px 0; border-bottom: 1px solid rgba(200,168,76,0.08); display: flex; gap: 16px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 10px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.6;">Integrated strength and injury prevention programming</span></div>
+                  <div style="padding: 18px 0; border-bottom: 1px solid rgba(200,168,76,0.08); display: flex; gap: 16px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 10px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.6;">Async weekly coaching check-in with Loom video response</span></div>
+                  <div style="padding: 18px 0; border-bottom: 1px solid rgba(200,168,76,0.08); display: flex; gap: 16px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 10px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.6;">Reactive plan adjustments based on your training data</span></div>
+                  <div style="padding: 18px 0; display: flex; gap: 16px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 10px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.6); line-height: 1.6;">Race-day pacing and strategy guidance</span></div>
                 </div>
               </div>
 
@@ -135,44 +140,28 @@
           </div>
         </section>
 
-        <!-- PHILOSOPHY QUOTE -->
-        <section style="padding: clamp(80px,10vw,130px) clamp(20px,4vw,40px); background: #080A10; position: relative; overflow: hidden;">
-          <div style="position: absolute; top: -10px; left: 2%; font-family: 'Cormorant Garamond', serif; font-size: 30vw; color: rgba(200,168,76,0.04); line-height: 0.85; pointer-events: none; user-select: none;">"</div>
-          <div style="max-width: 860px; margin: 0 auto; position: relative; z-index: 1; text-align: center;">
-            <div data-reveal style="opacity: 0; transform: translateY(24px);">
-              <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.42em; color: #C8A84C; text-transform: uppercase; margin-bottom: 48px;">The Earned Ground Mission</p>
-              <blockquote style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: clamp(21px, 3.2vw, 36px); color: #F0EDE6; line-height: 1.55; margin-bottom: 44px; font-weight: 400;">"There are two kinds of athletes. Those who hope their results come — and those who go earn them, session by session, season by season, without excuses. Earned Ground exists for the second kind."</blockquote>
-              <div style="width: 48px; height: 1px; background: rgba(200,168,76,0.5); margin: 0 auto 18px;"></div>
-              <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.32em; color: rgba(200,168,76,0.55); text-transform: uppercase;">Erik Hurley · Founder, Earned Ground Coaching</p>
-            </div>
+        <!-- TAGLINE MOMENT -->
+        <section style="padding: clamp(52px,6vw,80px) clamp(20px,4vw,40px); background: #080A10; text-align: center;">
+          <div data-reveal style="opacity: 0; transform: translateY(20px);">
+            <p style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(32px, 5vw, 64px); color: #C8A84C; letter-spacing: 0.06em; line-height: 1.05;">Earned in the Hours No One Sees.</p>
+            <div style="width: 32px; height: 2px; background: #C8A84C; margin: 20px auto;"></div>
+            <p style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.45); font-style: italic;">Triathlon coaching built for athletes who do the work.</p>
           </div>
         </section>
 
-        <!-- ABOUT SNIPPET -->
-        <section style="padding: clamp(64px,8vw,108px) clamp(20px,4vw,40px); background: #0E1218; border-top: 1px solid rgba(200,168,76,0.1);">
-          <div data-grid-2 style="max-width: 1160px; margin: 0 auto; display: grid; grid-template-columns: 380px 1fr; gap: 80px; align-items: center;">
-            <div data-reveal style="opacity: 0; transform: translateY(24px);">
-              <div style="background: #080A10; border: 1px solid rgba(200,168,76,0.14); padding: 44px 36px; display: flex; flex-direction: column; align-items: center; gap: 22px;">
-                <img src="egc-shield-transparent.png" style="height: 130px; width: auto;" alt="EGC">
-                <div style="text-align: center; padding-bottom: 20px; border-bottom: 1px solid rgba(200,168,76,0.12); width: 100%;">
-                  <div style="font-family: 'Bebas Neue', sans-serif; font-size: 30px; color: #F0EDE6; letter-spacing: 0.07em; margin-bottom: 4px;">Erik Hurley</div>
-                  <div style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.32em; color: #C8A84C; text-transform: uppercase;">Head Coach · Founder</div>
-                </div>
-                <div style="display: flex; flex-direction: column; gap: 10px; width: 100%;">
-                  <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.16em; color: rgba(240,237,230,0.45); text-transform: uppercase;">◆ &nbsp;USAT Certified Coach</span>
-                  <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.16em; color: rgba(240,237,230,0.45); text-transform: uppercase;">◆ &nbsp;B.S. Health Sciences</span>
-                  <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.16em; color: rgba(240,237,230,0.45); text-transform: uppercase;">◆ &nbsp;Full Ironman Finisher</span>
-                  <span style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.16em; color: rgba(240,237,230,0.45); text-transform: uppercase;">◆ &nbsp;SafeSport Certified</span>
-                </div>
-              </div>
+        <!-- COACH TEASER -->
+        <section style="padding: clamp(48px,5vw,72px) clamp(20px,4vw,40px); background: #0A0C12;">
+          <div data-reveal style="opacity: 0; transform: translateY(20px); max-width: 680px; margin: 0 auto; text-align: center;">
+            <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.32em; color: rgba(240,237,230,0.35); text-transform: uppercase;">Head Coach</p>
+            <div style="border-top: 1px solid rgba(200,168,76,0.15); margin: 16px 0 28px;"></div>
+            <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(36px,4vw,52px); color: #F0EDE6; letter-spacing: 0.04em;">Erik Hurley</h2>
+            <div style="margin: 18px 0;">
+              <p style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.5); line-height: 1.7; margin-bottom: 4px;">USA Triathlon Associate Certified Coach</p>
+              <p style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.5); line-height: 1.7; margin-bottom: 4px;">B.S. Health Sciences &amp; Sports Medicine</p>
+              <p style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.5); line-height: 1.7;">Triathlon competitor since 2010 · Sprint through Full Ironman</p>
             </div>
-            <div data-reveal data-delay="140" style="opacity: 0; transform: translateY(24px);">
-              <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.42em; color: #C8A84C; text-transform: uppercase; margin-bottom: 18px;">About the Coach</p>
-              <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 5vw, 62px); color: #F0EDE6; line-height: 0.93; letter-spacing: 0.02em; margin-bottom: 26px;">Built From the Ground Up</h2>
-              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.55); line-height: 1.88; margin-bottom: 18px;">Erik Hurley built his coaching philosophy the same way he built his athletic career — one hard session at a time. A USAT Certified Coach with a B.S. in Health Sciences and Sports Medicine, he brings academic grounding alongside genuine competitive experience.</p>
-              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.55); line-height: 1.88; margin-bottom: 36px;">Erik has been in the triathlon world since 2010, competing at sprint and Olympic distances before stepping away — not from lack of drive, but from the financial reality of being truly competitive in the sport. He made himself a promise: complete a full Ironman before turning 40. He kept it.</p>
-              <button onClick="{{ goAbout }}" style="background: transparent; color: rgba(240,237,230,0.75); border: 1px solid rgba(240,237,230,0.2); padding: 13px 32px; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; transition: all 0.2s;" style-hover="border-color: #C8A84C !important; color: #C8A84C !important;">Full Bio &amp; Credentials →</button>
-            </div>
+            <div style="border-top: 1px solid rgba(200,168,76,0.15); margin: 28px 0 24px;"></div>
+            <button onClick="{{ goAbout }}" style="background: transparent; color: rgba(240,237,230,0.75); border: 1px solid rgba(240,237,230,0.2); padding: 13px 32px; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 0.22em; text-transform: uppercase; cursor: pointer; transition: all 0.2s;" style-hover="border-color: #C8A84C !important; color: #C8A84C !important;">Meet Erik →</button>
           </div>
         </section>
 
@@ -224,14 +213,26 @@
             </div>
             <div data-reveal data-delay="120" style="opacity: 0; transform: translateY(24px);">
               <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(34px, 4.5vw, 52px); color: #F0EDE6; letter-spacing: 0.02em; line-height: 0.93; margin-bottom: 32px;">Built From the Ground Up</h2>
-              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 20px;">Erik Hurley built his coaching philosophy the same way he built his athletic career — one hard session at a time.</p>
+              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 20px;">The athletes who reach their goals aren't always the most talented — they're the ones who keep showing up when it would be easier not to. Erik Hurley built his coaching philosophy around that truth, the same way he built his own athletic career: one honest session at a time.</p>
               <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 20px;">A USA Triathlon Certified Coach with a Bachelor of Science in Health Sciences and Sports Medicine, Erik brings academic grounding in exercise science alongside genuine competitive experience to every athlete he works with.</p>
-              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 20px;">Erik has been in the triathlon world since 2010, competing at sprint and Olympic distances before stepping away — not from lack of drive, but from the financial reality of being truly competitive in the sport. He made himself a promise: complete a full Ironman before turning 40. He kept it. That journey — from first tri to Ironman finisher, with a decade of life in between — is the lens through which he coaches every athlete.</p>
-              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 20px;">Along the way, Erik earned a Masters Swim Instructor Certification while stationed in Iceland and provided open-water technique guidance and structured swim programming to a Pacific Northwest triathlon club. That hands-on coaching experience, combined with his competitive background spanning sprint through Ironman distances, shapes how he builds training for every athlete he works with.</p>
+              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 20px;">Before he found his home in endurance sport, Erik competed across a range of athletic backgrounds — baseball, basketball, and swimming and diving — developing the all-around movement base and competitive instincts that still inform how he coaches today. Endurance running came next, building from 5K races up through the marathon distance.</p>
+              <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 20px;">Erik has been a triathlete since 2010, racing from sprint distance through the full Ironman. In 2021 and 2022 he brought that competitive experience to a Pacific Northwest triathlon club, providing open-water technique guidance and structured swim programming alongside his own training — hands-on coaching that, combined with his racing background across every triathlon distance, shapes how he builds training for the athletes he works with.</p>
               <div style="border-left: 2px solid rgba(200,168,76,0.45); padding-left: 24px; margin-top: 36px;">
                 <p style="font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 20px; color: rgba(240,237,230,0.75); line-height: 1.65;">"The only results that last are the ones you earned. Training should be hard enough to drive adaptation, intelligent enough to prevent injury, and honest enough to build real, lasting confidence."</p>
               </div>
             </div>
+          </div>
+        </section>
+
+        <!-- How I Coach -->
+        <section style="padding: clamp(56px,7vw,96px) clamp(20px,4vw,40px); background: #080A10; border-top: 1px solid rgba(200,168,76,0.1);">
+          <div data-reveal style="opacity: 0; transform: translateY(24px); max-width: 760px; margin: 0 auto;">
+            <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.42em; color: #C8A84C; text-transform: uppercase; margin-bottom: 14px;">The Approach</p>
+            <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(34px, 4.5vw, 52px); color: #F0EDE6; letter-spacing: 0.02em; margin-bottom: 28px;">How I Coach</h2>
+            <div style="border-top: 1px solid rgba(200,168,76,0.12); margin-bottom: 32px;"></div>
+            <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 22px;">Before a single workout gets written, there's one question that matters most: why does this goal matter to you? Not the race on the calendar — the reason underneath it. That answer becomes the anchor for everything that follows: the plan, the hard conversations, and the days when motivation is gone and the work still has to get done.</p>
+            <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9; margin-bottom: 22px;">From there, every plan is built on a principle that doesn't change: consistency is what drives improvement, and consistency depends on a body that isn't constantly breaking down. That belief shapes every decision about training load, progression, and recovery. The goal is never to do more for its own sake — it's to do exactly enough to create adaptation without accumulating a debt the body can't repay.</p>
+            <p style="font-family: 'Barlow', sans-serif; font-size: 17px; color: rgba(240,237,230,0.58); line-height: 1.9;">Progress shows up in efficiency long before it shows up on a results sheet — cadence, sustainable power, the ability to hold the same effort for longer. Those are the signals we build toward together, session by session, until race day simply confirms the work that was already done.</p>
           </div>
         </section>
 
@@ -246,7 +247,7 @@
               <div data-reveal style="opacity: 0; transform: translateY(20px); background: #0A0C12; padding: 40px 36px;">
                 <p style="font-family: 'Bebas Neue', sans-serif; font-size: 12px; letter-spacing: 0.32em; color: #C8A84C; text-transform: uppercase; margin-bottom: 22px;">Active Certifications</p>
                 <div style="display: flex; flex-direction: column; gap: 13px;">
-                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">USA Triathlon Associate Certified Coach (Valid through 2030)</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">USA Triathlon Associate Certified Coach</span></div>
                   <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">SafeSport Certified</span></div>
                   <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Background Screened</span></div>
                 </div>
@@ -261,6 +262,7 @@
               <div data-reveal data-delay="100" style="opacity: 0; transform: translateY(20px); background: #0A0C12; padding: 40px 36px;">
                 <p style="font-family: 'Bebas Neue', sans-serif; font-size: 12px; letter-spacing: 0.32em; color: #C8A84C; text-transform: uppercase; margin-bottom: 22px;">Professional Background</p>
                 <div style="display: flex; flex-direction: column; gap: 13px;">
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Certified Personal Trainer (formerly held, ACE)</span></div>
                   <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Masters Swim Instructor Certification (formerly held)</span></div>
                   <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Swim coach, Pacific Northwest triathlon club — open-water technique &amp; structured swim programming</span></div>
                 </div>
@@ -269,7 +271,7 @@
                 <p style="font-family: 'Bebas Neue', sans-serif; font-size: 12px; letter-spacing: 0.32em; color: #C8A84C; text-transform: uppercase; margin-bottom: 22px;">Athletic Background</p>
                 <div style="display: flex; flex-direction: column; gap: 13px;">
                   <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Triathlon — Competitor since 2010 · Sprint, Olympic, 70.3, &amp; Full Ironman</span></div>
-                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Endurance Running — 5K through marathon (Seattle Marathon)</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Endurance Running — 5K through marathon</span></div>
                   <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 9px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.65); line-height: 1.55;">Baseball · Basketball · Swimming &amp; Diving</span></div>
                 </div>
               </div>
@@ -307,7 +309,6 @@
         <section style="padding: clamp(56px,7vw,96px) clamp(20px,4vw,40px); background: #0A0C12;">
           <div data-svc-grid style="max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: 1fr 2fr; gap: 72px; align-items: start;">
             <div data-reveal style="opacity: 0; transform: translateY(24px);">
-              <div style="font-family: 'Bebas Neue', sans-serif; font-size: 110px; color: #C8A84C; line-height: 0.88; letter-spacing: 0.02em; opacity: 0.55;">01</div>
               <div style="width: 36px; height: 2px; background: #C8A84C; margin-bottom: 22px;"></div>
               <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(28px, 3.8vw, 44px); color: #F0EDE6; letter-spacing: 0.03em; line-height: 1.05; margin-bottom: 8px;">Triathlon &amp; Endurance Coaching</h2>
               <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.26em; color: #C8A84C; text-transform: uppercase; margin-bottom: 20px;">Sprint Distance → Full Ironman</p>
@@ -337,7 +338,55 @@
         <!-- REMOVED: Service 03 - Sport Skills Development -->
         <!-- REMOVED: Service 04 - Youth Speed, Agility & Quickness -->
 
-        <!-- How It Works -->
+        <!-- COACHING OPTIONS -->
+        <section style="padding: clamp(56px,7vw,96px) clamp(20px,4vw,40px); background: #0A0C12; border-top: 1px solid rgba(200,168,76,0.1);">
+          <div style="max-width: 1120px; margin: 0 auto;">
+            <div data-reveal style="opacity: 0; transform: translateY(24px); text-align: center; margin-bottom: 52px;">
+              <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 11px; letter-spacing: 0.42em; color: #C8A84C; text-transform: uppercase; margin-bottom: 14px;">Coaching Options</p>
+              <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(38px, 5.5vw, 64px); color: #F0EDE6; letter-spacing: 0.02em; margin-bottom: 14px;">Choose Your Path</h2>
+              <p style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.45); max-width: 520px; margin: 0 auto;">Two ways to work together. Cadence and pricing are discussed during your intake conversation, once we know what you actually need.</p>
+            </div>
+            <div data-grid-2x2 style="display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(200,168,76,0.1);">
+
+              <!-- Your Plan -->
+              <div data-reveal style="opacity: 0; transform: translateY(24px); background: #0E1218; padding: clamp(36px,4vw,52px) clamp(28px,3.5vw,44px);">
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.28em; color: rgba(200,168,76,0.65); text-transform: uppercase; margin-bottom: 12px;">One-Time Engagement</p>
+                <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; color: #F0EDE6; letter-spacing: 0.03em; margin-bottom: 10px;">Your Plan</h3>
+                <div style="width: 28px; height: 2px; background: #C8A84C; margin-bottom: 22px;"></div>
+                <p style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.55); line-height: 1.8; margin-bottom: 28px;">A complete, periodized training plan built specifically for your goal race — not a template. It starts from your current fitness, your available training hours, your race date, and your individual limiters across swim, bike, and run. You execute it independently.</p>
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.28em; color: rgba(240,237,230,0.35); text-transform: uppercase; margin-bottom: 18px;">What's Included</p>
+                <div style="display: flex; flex-direction: column; gap: 14px;">
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Race-specific periodization across swim, bike, and run</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Zone-based targets using heart rate, pace, and RPE</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Delivered in TrainingPeaks with session-level coach notes</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Integrated strength and injury prevention programming</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Built for your distance — sprint through full Ironman</span></div>
+                </div>
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.28em; color: rgba(240,237,230,0.35); text-transform: uppercase; margin: 28px 0 12px;">Best For</p>
+                <p style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.45); line-height: 1.7;">Self-directed athletes who want a professionally built foundation and have the discipline to execute it on their own.</p>
+              </div>
+
+              <!-- Your Coach -->
+              <div data-reveal data-delay="120" style="opacity: 0; transform: translateY(24px); background: #0A0C12; border-top: 3px solid #C8A84C; padding: clamp(36px,4vw,52px) clamp(28px,3.5vw,44px);">
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.28em; color: rgba(200,168,76,0.65); text-transform: uppercase; margin-bottom: 12px;">Ongoing Coaching</p>
+                <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 40px; color: #F0EDE6; letter-spacing: 0.03em; margin-bottom: 10px;">Your Coach</h3>
+                <div style="width: 28px; height: 2px; background: #C8A84C; margin-bottom: 22px;"></div>
+                <p style="font-family: 'Barlow', sans-serif; font-size: 16px; color: rgba(240,237,230,0.55); line-height: 1.8; margin-bottom: 28px;">Everything in Your Plan, plus a coach in your corner week to week. The plan stays alive — adapting to your training data, your recovery, travel, illness, and the realities of life — so you're never guessing whether you're doing the right work.</p>
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.28em; color: rgba(240,237,230,0.35); text-transform: uppercase; margin-bottom: 18px;">What's Included</p>
+                <div style="display: flex; flex-direction: column; gap: 14px;">
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Everything included in Your Plan</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Weekly review of your training data and reactive plan adjustments</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Async weekly check-in with a Loom video coaching response</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">Race-day pacing, strategy, and transition planning</span></div>
+                  <div style="display: flex; gap: 14px; align-items: flex-start;"><div style="width: 4px; height: 4px; background: #C8A84C; margin-top: 8px; flex-shrink: 0; transform: rotate(45deg);"></div><span style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.6); line-height: 1.6;">A coaching relationship that adapts to you, not the other way around</span></div>
+                </div>
+                <p style="font-family: 'Barlow Condensed', sans-serif; font-size: 10px; letter-spacing: 0.28em; color: rgba(240,237,230,0.35); text-transform: uppercase; margin: 28px 0 12px;">Best For</p>
+                <p style="font-family: 'Barlow', sans-serif; font-size: 15px; color: rgba(240,237,230,0.45); line-height: 1.7;">Athletes who want accountability, expert eyes on their training, and a plan that evolves with them all the way to race day.</p>
+              </div>
+
+            </div>
+          </div>
+        </section>
 
         <!-- How It Works -->
         <section style="padding: clamp(64px,8vw,108px) clamp(20px,4vw,40px); background: #1A2840;">
